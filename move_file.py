@@ -22,8 +22,8 @@ def get_latest_file(folder_path):
 # Move recent added files from folders in source_dir to target_dir
 if __name__ == "__main__":
 	source_dir = ['C:\\Users\\vietd\\Desktop\\a',
-				  'C:\\Users\\vietd\\Desktop\\b',
-				  'C:\\Users\\vietd\\Desktop\\c']			  
+		      'C:\\Users\\vietd\\Desktop\\b',
+		      'C:\\Users\\vietd\\Desktop\\c']			  
 	target_dir = 'C:\\Users\\vietd\\Desktop\\target'
 		
 	latest_files = [get_latest_file(folder) for folder in source_dir]
